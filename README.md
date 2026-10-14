@@ -1,4 +1,4 @@
-# Health Connect reads fail after revoking and granting permissions again
+This repo contains a simple app designed to reproduce a potential bug with Health Connect permissions introduced to Android during the Android 17 QPR2 beta release.
 
 On a Pixel 10 Pro Fold running Android 17 QPR2 beta (`CP41.260831.016`), most Health Connect reads stop working after calling `revokeAllPermissions()` and granting permissions again.
 
